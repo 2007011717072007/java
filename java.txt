@@ -1,0 +1,16 @@
+var NumeroA= Number(prompt("Digite o primeiro valor:",""));
+	
+    var NumeroB= Number(prompt("Digite o segundo valor:",""));
+	
+	var NumeroC;
+	
+    if((NumeroA==0)||(NumeroB==0))
+    {
+	alert("divisão por 0 não é possivel");
+	}	
+	
+	else
+	{
+    NumeroC= NumeroA / NumeroB
+	alert("A divisão é:"+NumeroC);
+	}

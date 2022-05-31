@@ -1,0 +1,17 @@
+var N= Number(prompt("Digite um valor",""));
+	
+	var divisores=0;
+	
+	var i;
+	
+	for(i=1;i<=N;i++)
+	{
+	if(N%i==0){
+	divisores++;
+	}
+	}
+	if(divisores==2){
+	alert("Numero é primo")
+	}
+	else
+	  alert("Não é primo");
